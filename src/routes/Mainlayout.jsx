@@ -7,9 +7,10 @@ import {Outlet} from 'react-router-dom';
 import {StyledEngineProvider, ThemeProvider, createTheme} from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from "@mui/material/Container";
-import NavBar from "../components/NavBar/NavBar";
+import NavBar from "../components/NavBar/Navbar";
 import imgLogo from '../components/NavBar/images/logo.png';
 import Footer from "../components/Footer/Footer";
+
 
 const siteTheme = createTheme({
     palette: {
@@ -40,23 +41,23 @@ const menuItems = [
         name: 'Inicio',
         path: '/'
     }
-    // ,
-    // {
-    //     name: 'Tablet',
-    //     path: '/category/1'
-    // },
-    // {
-    //     name: 'Notebook',
-    //     path: '/category/2'
-    // },
-    // {
-    //     name: 'Acerca De',
-    //     path: '/aboutus'
-    // },
-    // {
-    //     name: 'Contacto',
-    //     path: '/contactus'
-    // }
+    ,
+    {
+        name: 'Tablet',
+        path: '/category/1'
+    },
+    {
+        name: 'Notebook',
+        path: '/category/2'
+    },
+    {
+        name: 'Acerca De',
+        path: '/aboutus'
+    },
+    {
+        name: 'Contacto',
+        path: '/contactus'
+    }
 ];
 
 const MainLayout = () => {

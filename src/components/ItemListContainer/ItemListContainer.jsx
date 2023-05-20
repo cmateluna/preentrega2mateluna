@@ -6,7 +6,8 @@ import ItemList from "../ItemList/ItemList";
 import data from "../../items.json";
 import Button from "@mui/material/Button";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import "./ItemListContainer.css";
+//import "./ItemListContainer.css";
+import "../ItemListContainer/ItemListContainer.css";
 
 const ItemListContainer = () => {
 

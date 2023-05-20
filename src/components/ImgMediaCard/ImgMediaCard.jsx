@@ -12,7 +12,7 @@ import {useNavigate} from "react-router-dom";
 import {Divider} from "@mui/material";
 
 export default function ImgMediaCard(props) {
-
+    
     const {id, title, description, image, price} = props;
 
     const navigate = useNavigate()
@@ -29,7 +29,7 @@ export default function ImgMediaCard(props) {
                 <Typography gutterBottom variant="h5" component="div">
                     {title}
                 </Typography>
-                <Typography className="imgMediaCard__price" variant="h6" color="text.primary">
+                 <Typography className="imgMediaCard__price" variant="h6" color="text.primary">
                     ${price}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
@@ -40,7 +40,7 @@ export default function ImgMediaCard(props) {
             <Divider />
             <CardActions>
                 <Button href="#text-buttons" size="small" startIcon={<ShoppingCartCheckoutIcon />}>Agregar al Carro</Button>
-                <Button onClick={()=>navigate(`/item/${id}`)} size="small" startIcon={<AddIcon />}>Ver Más</Button>
+                <Button onClick={()=>navigate(`/item/${id}`)} size="small" startIcon={<AddIcon />}>Ver Más</Button> 
             </CardActions>
         </Card>
     );

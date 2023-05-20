@@ -11,12 +11,12 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import CartWidget from '../CartWidget/CartWidget'
+//import CartWidget from '../CartWidget/CartWidget'
 import Navbartitle from '../NavBar/Navbartitle';
 
 
 
-function NavBar(props) {
+function Navbar(props) {
 
     //Props
     const title = props.title;
@@ -115,13 +115,13 @@ function NavBar(props) {
                         ))}
                     </Box>
 
-                    <Box sx={{ flexGrow: 0 }}>
+                    {/* <Box sx={{ flexGrow: 0 }}>
                         <CartWidget />
-                    </Box>
+                    </Box> */}
                 </Toolbar>
             </Container>
         </AppBar>
     );
 }
 
-export default NavBar;
+export default Navbar;

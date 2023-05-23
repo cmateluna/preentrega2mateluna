@@ -8,7 +8,7 @@ const Home = () => {
         <React.Fragment>
             <Box>
                 <Typography variant="h4" gutterBottom color="text.primary">
-                    Listado de Productos
+                    Musica De Rock
                 </Typography>
             </Box>
             <ItemListContainer />

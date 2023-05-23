@@ -17,7 +17,7 @@ const siteTheme = createTheme({
         mode: 'light',
         primary: {
             light: '#ff7961',
-            main: '#f44336',
+            main: '#0f314e',
             dark: '#ba000d',
             contrastText: '#000000',
             
@@ -43,16 +43,16 @@ const menuItems = [
     }
     ,
     {
-        name: 'Tablet',
+        name: 'Musica Rock',
         path: '/category/1'
     },
     {
-        name: 'Notebook',
+        name: 'Vinilos',
         path: '/category/2'
     },
     {
-        name: 'Acerca De',
-        path: '/aboutus'
+        name: 'Poleras',
+        path: '/category/3'
     },
     {
         name: 'Contacto',
